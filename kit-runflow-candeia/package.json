@@ -1,0 +1,20 @@
+{
+  "name": "candeia-divergencias-kit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Agente de divergências da Candeia Materiais Elétricos (caso fictício) e a bateria de evals.",
+  "type": "module",
+  "scripts": {
+    "eval": "rf-evals",
+    "eval:view": "rf-evals-view"
+  },
+  "dependencies": {
+    "@runflow-ai/sdk": "^1.0.100",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@runflow-ai/evals": "0.0.9",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  }
+}
